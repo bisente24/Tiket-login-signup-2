@@ -1,0 +1,108 @@
+body {
+  background-color: #E1E1E1;
+}
+
+.login-container {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30vh;
+}
+
+.login-text {
+  margin: 10px 0;
+  font-weight: bold; 
+}
+
+.line {
+  width: 80%;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.input-label {
+  margin-bottom: 5px;
+  font-weight: bold; 
+}
+
+.input-field {
+  width: 250px; 
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  border: 1px solid #000000;
+}
+
+.login-button {
+  width: 250px; 
+  padding: 10px;
+  margin: 10px;
+  background-color: #2B436C; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.register-text {
+  margin: 10px 0;
+}
+
+.logo {
+  width: 55vh; 
+  height: 55vh; 
+  position: absolute; 
+  top: 22%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.show-password-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.login-text strong,
+.input-label strong {
+  font-weight: bold;
+}
+
+.register-text  {
+  font-style: italic;
+}
+
+.input-error {
+  border-color: red;
+}
+
+.validation-error {
+  color: red;
+  margin-top: 5px;
+}
+
+.login-success-message {
+  color: green;
+  margin-top: 5px;
+}

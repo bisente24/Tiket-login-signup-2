@@ -1,0 +1,95 @@
+body {
+  background-color: #E1E1E1;
+}
+
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30vh;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.registration-header {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.registration-form {
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border: 0px solid #000000;
+  border-bottom-width: 1px;
+  background-color: transparent;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #2B436C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.login-text a {
+  color: #2B436C;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.password-icon-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.show-password-icon {
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.registration-success-message {
+  color: green;
+}
